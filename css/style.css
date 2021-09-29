@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     height: 100%
 }
 
@@ -16,7 +17,12 @@ body {
     color: #555
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: #222
 }
 
@@ -39,7 +45,8 @@ hr {
     border-color: #ddd
 }
 
-ul, ol {
+ul,
+ol {
     list-style: none;
     margin: 0 0 25px 0;
     padding: 0
@@ -56,7 +63,8 @@ a {
     outline: none
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
     color: #111;
     text-decoration: none;
     outline: none
@@ -117,7 +125,8 @@ a.animated_link.active:before {
     transform: scaleX(1)
 }
 
-a.btn_1, .btn_1 {
+a.btn_1,
+.btn_1 {
     border: none;
     color: #fff;
     background: #1dbe72;
@@ -143,30 +152,35 @@ a.btn_1, .btn_1 {
     font-size: 0.875rem
 }
 
-a.btn_1:hover, .btn_1:hover {
+a.btn_1:hover,
+.btn_1:hover {
     background-color: #d80075
 }
 
-a.btn_1.full-width, .btn_1.full-width {
+a.btn_1.full-width,
+.btn_1.full-width {
     display: block;
     width: 100%;
     text-align: center;
     margin-bottom: 5px
 }
 
-a.btn_1.small, .btn_1.small {
+a.btn_1.small,
+.btn_1.small {
     padding: 7px 10px;
     font-size: 13px;
     font-size: 0.8125rem
 }
 
-a.btn_1.medium, .btn_1.medium {
+a.btn_1.medium,
+.btn_1.medium {
     font-size: 16px;
     font-size: 1rem;
     padding: 18px 30px
 }
 
-a.btn_1.rounded, .btn_1.rounded {
+a.btn_1.rounded,
+.btn_1.rounded {
     -webkit-border-radius: 25px !important;
     -moz-border-radius: 25px !important;
     -ms-border-radius: 25px !important;
@@ -176,12 +190,14 @@ a.btn_1.rounded, .btn_1.rounded {
     box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.2)
 }
 
-a.btn_1.yellow, .btn_1.yellow {
+a.btn_1.yellow,
+.btn_1.yellow {
     background: #f8bd2c;
     color: #111
 }
 
-a.btn_1.yellow:hover, .btn_1.yellow:hover {
+a.btn_1.yellow:hover,
+.btn_1.yellow:hover {
     background-color: #d80075;
     color: #fff
 }
@@ -546,7 +562,9 @@ h3.main_question {
     font-size: 1.1875rem
 }
 
-button.backward, button.forward, button.submit {
+button.backward,
+button.forward,
+button.submit {
     border: none;
     color: #fff;
     text-decoration: none;
@@ -580,7 +598,8 @@ button[disabled] {
     display: none
 }
 
-.backward:hover, .forward:hover {
+.backward:hover,
+.forward:hover {
     background: #d80075;
     color: #fff
 }
@@ -887,7 +906,8 @@ footer ul li a:hover {
     }
 }
 
-.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
     background: #1dbe72 !important
 }
 
@@ -911,7 +931,8 @@ iframe#map_iframe {
     background-color: #f8f8f8;
     padding: 25px 30px 30px 30px;
     position: relative;
-    margin-bottom: 25px
+    margin-bottom: 25px;
+    left: 50%;
 }
 
 .box_style_2 .form-control {
@@ -1144,7 +1165,8 @@ span.error:after {
     left: 20%
 }
 
-.container_radio.version_2 .error, .container_check.version_2 .error {
+.container_radio.version_2 .error,
+.container_check.version_2 .error {
     left: -15px;
     top: -30px;
     right: inherit
@@ -1390,7 +1412,10 @@ span.error:after {
     transform: rotate(45deg)
 }
 
-.container_radio.version_2.active, .container_radio.version_2:hover, .container_check.version_2.active, .container_check.version_2:hover {
+.container_radio.version_2.active,
+.container_radio.version_2:hover,
+.container_check.version_2.active,
+.container_check.version_2:hover {
     border: 1px solid #1dbe72
 }
 
@@ -1426,7 +1451,9 @@ input[type=file]:focus {
     outline: none
 }
 
-input[type=file]::-webkit-file-upload-button, input[type=file].invalid::-webkit-file-upload-button, input[type=file].valid::-webkit-file-upload-button {
+input[type=file]::-webkit-file-upload-button,
+input[type=file].invalid::-webkit-file-upload-button,
+input[type=file].valid::-webkit-file-upload-button {
     color: #fff;
     font-size: 13px;
     border: 0;
@@ -1440,7 +1467,9 @@ input[type=file]::-webkit-file-upload-button, input[type=file].invalid::-webkit-
     outline: none
 }
 
-input[type=file]::-webkit-file-upload-button:focus, input[type=file].invalid::-webkit-file-upload-button:focus, input[type=file].valid::-webkit-file-upload-button:focus {
+input[type=file]::-webkit-file-upload-button:focus,
+input[type=file].invalid::-webkit-file-upload-button:focus,
+input[type=file].valid::-webkit-file-upload-button:focus {
     box-shadow: none;
     outline: none
 }
@@ -1525,6 +1554,7 @@ input[type=file]::-webkit-file-upload-button:focus, input[type=file].invalid::-w
     padding-bottom: 35px
 }
 
+
 /*!
  * Float Labels
  * @version: 3.3.9
@@ -1540,7 +1570,9 @@ input[type=file]::-webkit-file-upload-button:focus, input[type=file].invalid::-w
     -moz-osx-font-smoothing: grayscale
 }
 
-.fl-form input.fl-input, .fl-form select.fl-select, .fl-form textarea.fl-textarea {
+.fl-form input.fl-input,
+.fl-form select.fl-select,
+.fl-form textarea.fl-textarea {
     width: 100%;
     outline: 0;
     font-size: 14px;
@@ -1553,23 +1585,31 @@ input[type=file]::-webkit-file-upload-button:focus, input[type=file].invalid::-w
     margin-bottom: 0
 }
 
-.fl-form input.fl-input:-moz-placeholder, .fl-form select.fl-select:-moz-placeholder, .fl-form textarea.fl-textarea:-moz-placeholder {
+.fl-form input.fl-input:-moz-placeholder,
+.fl-form select.fl-select:-moz-placeholder,
+.fl-form textarea.fl-textarea:-moz-placeholder {
     color: #555;
     font-weight: 400
 }
 
-.fl-form input.fl-input::-moz-placeholder, .fl-form select.fl-select::-moz-placeholder, .fl-form textarea.fl-textarea::-moz-placeholder {
+.fl-form input.fl-input::-moz-placeholder,
+.fl-form select.fl-select::-moz-placeholder,
+.fl-form textarea.fl-textarea::-moz-placeholder {
     color: #555;
     font-weight: 400
 }
 
-.fl-form input.fl-input:-ms-input-placeholder, .fl-form select.fl-select:-ms-input-placeholder, .fl-form textarea.fl-textarea:-ms-input-placeholder {
+.fl-form input.fl-input:-ms-input-placeholder,
+.fl-form select.fl-select:-ms-input-placeholder,
+.fl-form textarea.fl-textarea:-ms-input-placeholder {
     color: #555;
     font-weight: 400;
     color: #FFF !important
 }
 
-.fl-form input.fl-input::-webkit-input-placeholder, .fl-form select.fl-select::-webkit-input-placeholder, .fl-form textarea.fl-textarea::-webkit-input-placeholder {
+.fl-form input.fl-input::-webkit-input-placeholder,
+.fl-form select.fl-select::-webkit-input-placeholder,
+.fl-form textarea.fl-textarea::-webkit-input-placeholder {
     color: #555;
     font-weight: 400
 }
@@ -1586,13 +1626,17 @@ input[type=file]::-webkit-file-upload-button:focus, input[type=file].invalid::-w
     display: none
 }
 
-.fl-form .fl-is-active input.fl-input, .fl-form .fl-is-active select.fl-select, .fl-form .fl-is-active textarea.fl-textarea {
+.fl-form .fl-is-active input.fl-input,
+.fl-form .fl-is-active select.fl-select,
+.fl-form .fl-is-active textarea.fl-textarea {
     color: #222;
     background-color: #fff;
     border-color: none
 }
 
-.fl-form .fl-has-focus input.fl-input, .fl-form .fl-has-focus select.fl-select, .fl-form .fl-has-focus textarea.fl-textarea {
+.fl-form .fl-has-focus input.fl-input,
+.fl-form .fl-has-focus select.fl-select,
+.fl-form .fl-has-focus textarea.fl-textarea {
     background-color: #fff;
     border-color: none
 }
@@ -1651,7 +1695,9 @@ body[dir=rtl] .fl-form .fl-is-required:before {
     opacity: 0
 }
 
-.fl-form.fl-style-1 input.fl-input, .fl-form.fl-style-1 select.fl-select, .fl-form.fl-style-1 textarea.fl-textarea {
+.fl-form.fl-style-1 input.fl-input,
+.fl-form.fl-style-1 select.fl-select,
+.fl-form.fl-style-1 textarea.fl-textarea {
     padding: 8px 16px
 }
 
@@ -1659,7 +1705,9 @@ body[dir=rtl] .fl-form .fl-is-required:before {
     height: 46px
 }
 
-.fl-form.fl-style-1 .fl-is-active input.fl-input, .fl-form.fl-style-1 .fl-is-active select.fl-select, .fl-form.fl-style-1 .fl-is-active textarea.fl-textarea {
+.fl-form.fl-style-1 .fl-is-active input.fl-input,
+.fl-form.fl-style-1 .fl-is-active select.fl-select,
+.fl-form.fl-style-1 .fl-is-active textarea.fl-textarea {
     padding: 8px 16px
 }
 
@@ -1696,7 +1744,9 @@ body[dir=rtl] .fl-form.fl-style-1 label.fl-label {
     right: 13px
 }
 
-.fl-form.fl-style-2 input.fl-input, .fl-form.fl-style-2 select.fl-select, .fl-form.fl-style-2 textarea.fl-textarea {
+.fl-form.fl-style-2 input.fl-input,
+.fl-form.fl-style-2 select.fl-select,
+.fl-form.fl-style-2 textarea.fl-textarea {
     padding: 16px
 }
 
@@ -1704,7 +1754,9 @@ body[dir=rtl] .fl-form.fl-style-1 label.fl-label {
     height: 62px
 }
 
-.fl-form.fl-style-2 .fl-is-active input.fl-input, .fl-form.fl-style-2 .fl-is-active select.fl-select, .fl-form.fl-style-2 .fl-is-active textarea.fl-textarea {
+.fl-form.fl-style-2 .fl-is-active input.fl-input,
+.fl-form.fl-style-2 .fl-is-active select.fl-select,
+.fl-form.fl-style-2 .fl-is-active textarea.fl-textarea {
     padding: 24px 16px 8px
 }
 
@@ -1740,4 +1792,17 @@ body[dir=rtl] .fl-form.fl-style-2 label.fl-label {
 body[dir=rtl] .fl-form .fl-wrap-select:after {
     right: unset;
     left: 6px
+}
+
+.grid-container {
+    display: grid;
+    grid-column-gap: 50px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.grid-item {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    font-size: 30px;
+    text-align: center;
 }
