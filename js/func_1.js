@@ -52,25 +52,25 @@ $("#wizard_container").wizard({
     }
 });
 
-/* File upload validate size and file type - For details: https://github.com/snyderp/jquery.validate.file*/
-$("form#wrapped")
-    .validate({
-        rules: {
-            fileupload: {
-                fileType: {
-                    types: ["pdf", "application/msword", "application/vnd.openxmlformats-officedocument.wordprocessingml.document"]
-                },
-                maxFileSize: {
-                    "unit": "KB",
-                    "size": 150
-                },
-                minFileSize: {
-                    "unit": "KB",
-                    "size": "2"
-                }
-            }
-        }
-    });
+// /* File upload validate size and file type - For details: https://github.com/snyderp/jquery.validate.file*/
+// $("form#wrapped")
+//     .validate({
+//         rules: {
+//             fileupload: {
+//                 fileType: {
+//                     types: ["pdf", "application/msword", "application/vnd.openxmlformats-officedocument.wordprocessingml.document"]
+//                 },
+//                 maxFileSize: {
+//                     "unit": "KB",
+//                     "size": 150
+//                 },
+//                 minFileSize: {
+//                     "unit": "KB",
+//                     "size": "2"
+//                 }
+//             }
+//         }
+//     });
 
 // Input name and email value
 function getVals(formControl, controlType) {
