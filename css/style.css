@@ -612,7 +612,8 @@ button[disabled] {
     border-top: 2px solid #ededed;
     padding-top: 20px;
     text-align: right;
-    margin-top: 30px
+    margin-top: 30px display: flex;
+    justify-content: space-between;
 }
 
 .ui-widget-content {
